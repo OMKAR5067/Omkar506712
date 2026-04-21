@@ -12,11 +12,37 @@
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
 </head>
 
-<body class="container" >
+<body  >
 
-<div class="card">
+<div class="alert-box" id="alertBox">
+  ✔ Card scanned successfully
+</div>
+
+    <div class="container">
+
+  <div class="card" id="card">
+    
+    <!-- FRONT -->
+    <div class="card-face front">
+      <img src="front.jpeg" alt="Front Card">
+    </div>
+
+    <!-- BACK -->
+    <div class="card-face back">
+      <img src="back.jpg" alt="Back Card">
+    </div>
+
+  </div>
+
+</div>
+
+<div class="main-card">
 
 <!-- HEADER -->
 
@@ -103,6 +129,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
 </div>
 
 </div>
+
+
 
 <script src="OmkarQr.js"></script>
 
