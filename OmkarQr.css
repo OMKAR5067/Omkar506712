@@ -201,6 +201,8 @@ box-shadow:0 0 15px rgba(255,165,0,0.6),
 
 .upi{background:#ffa600;}
 
+.email{background:#c0392b;}
+
 /* RESPONSIVE */
 
 @media(max-width:500px){
